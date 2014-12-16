@@ -64,5 +64,5 @@ cacheSolve <- function(x, ...) {  ## The input "x" is the object created
                                   ## the value of the matrix,
         inverse <- solve(data, ...)  ## compute the inverse,
         x$setinverse(inverse)     ## store it in the cache,
-        inverse                   ## and return the result of the computation.                                  ## computation.
+        inverse                   ## and return the result of the computation.
 }
